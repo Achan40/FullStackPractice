@@ -45,6 +45,48 @@
         </form>
 
         <!--Labels-->
+        <form action="https://www.facebook.com" method="get">
+            <p>Enter Text and take me to Facbook:</p>
+            <input type="text" name="userinput">
+            <input type="submit" name="" value="Submit">
+        </form>
+
+        <form>
+            <label for="userinput">Enter Input:</label>
+            <input type="text" name="" placeholder="Hello!" id="userinput">
+        </form>
         
+        <form>
+            <input type="text" name="" placeholder="Not Required">
+            <input type="text" name="" placeholder="Required" required>
+            <input type="submit" name="" value="Submit">
+        </form>
+
+        <h1>Hotel Feedback Form</h1>
+        <form method="get"> 
+            <!--Radio Buttons-->
+            <!--Link Buttons Together-->
+            <h3>Are you from inside the US? Or outside the US?</h3>
+            <label for="inus">Inside:</label>
+            <input type="radio" name="loc" id="inusa" value="inside">
+
+            <label for="outusa">Outside:</label>
+            <input type="radio" name="loc" id="outusa" value="outside">
+
+            <!--Dropdown-->
+            <h3>How was your service?</h3>
+            <select name="starts">
+                <option value="Great">3</option>
+                <option value="Okay">2</option>
+                <option value="Bad">1</option>
+            </select>
+
+            <input type="submit" name="" value="Submit">
+
+            <!--Text Area input-->
+            <h3>Any other feedback?</h3>
+            <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+
+        </form>
     </body>
 </html>
