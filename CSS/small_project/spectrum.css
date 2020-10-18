@@ -1,0 +1,41 @@
+/* Using auto generated colors from coolors.co and Bebas Neue font from google fonts*/
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.art{
+    margin: auto;
+}
+
+td{
+    background-color: black;
+    height: 200px;
+    width: 100px;
+    border: 6px solid white;
+}
+
+#one{
+    background-color: #A8F9FF;
+}
+
+#two{
+    background-color: #9AE5E6;
+}
+
+#three{
+    background-color: #81A094;
+}
+
+#four{
+    background-color: #775B59;
+}
+
+#five{
+    background-color: #32161F;
+}
+
+
+
+
