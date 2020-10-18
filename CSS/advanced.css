@@ -1,0 +1,31 @@
+h1{
+    font-family: "Arial";
+}
+
+p{
+    font-family: monospace;
+}
+
+/* Dynamic font sizing */
+/* 1em = 16px
+2em = 32px */
+
+/* default body font size */
+body{
+    font-size: 20px;
+}
+ 
+/* font size that is n times the body */
+#two{
+    font-size: 1em;
+}
+
+/* font styles, font weights, text alignment */
+p{
+    font-style: italix;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
