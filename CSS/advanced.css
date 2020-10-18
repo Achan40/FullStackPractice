@@ -29,3 +29,23 @@ p{
 h1{
     text-align: center;
 }
+
+/*loading in downloaded fonts*/
+p{
+  font-family: 'Barrio', cursive;  
+}
+
+/*Box Model*/
+#top{
+    border: 4px solid blue;
+    /*scaling depends on browser view*/
+    width: 25%;
+    text-align: center;
+    margin: auto;
+}
+#bottom{
+    border: 4px solid red;
+    width: 50%;
+    padding: 200px;
+    text-align: center;
+}
