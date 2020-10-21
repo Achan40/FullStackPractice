@@ -16,3 +16,24 @@ for (i in carInfo){
     console.log(i)
     console.log(carInfo[i])
 }
+
+//methods are functions within objects
+var simple = {
+    prop: "Hello",
+    myMethod: function () {
+        console.log("The myMethod was called")
+    }
+}
+
+//call the method
+simple.myMethod()
+
+//the 'this' keyword is basically self in python
+var myObj = {
+    name: "Aaron",
+    greet: function () {
+        console.log("Hello " + this.name)
+    }
+}
+
+myObj.greet()
