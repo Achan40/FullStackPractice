@@ -1,0 +1,2 @@
+# ignore all secrets.py files
+secret_settings.py
