@@ -89,3 +89,57 @@ this_is_a_module.func_in_module()
 
 
 # Decorators
+# Functions that modify the functionality of other functions
+
+# Returning Functions
+def hello(name="Aaron"):
+    print("The hello() function has been run")
+
+    def greet():
+        return "This string is inside greet()"
+
+    def welcome():
+        return "This string is inside welcome()"
+
+    # Returning functions
+    if name == "Aaron":
+        return greet
+    else:
+        return welcome
+
+x = hello()
+
+print(x())
+
+# Function as an arguement
+def hello():
+    return "Hi Aaron"
+
+def other(func):
+    print("Hello")
+    print(func())
+
+other(hello)
+
+# Creating decorators
+def new_decorator(func):
+
+    def wrap_func():
+        print("Code here before executing func")
+        func()
+        print("func() has been called")
+    
+    return wrap_func
+
+def func_needs_decorator():
+    print("This funtion is in need of a decorator")
+
+# func_needs_decorator = new_decorator(func_needs_decorator)
+# func_needs_decorator()
+
+# Instead of doing the above lines we can do this
+@new_decorator
+def func_needs_decorator():
+    print("This funtion is in need of a decorator")
+
+func_needs_decorator()
