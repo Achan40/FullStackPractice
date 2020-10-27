@@ -33,4 +33,3 @@ class FormName(forms.Form):
             #raise forms.ValidationError("Got a bot!")
         #return botcatcher
 
-    # Django Built in Validators use validators module
